@@ -4,3 +4,4 @@ A pack of crafttweaker scripts to make some stuff compadiable between Applied En
 
 --== Crafttweaker Priorities ==--
 1300 - Inscriber Recipes
+       Crafting recipes
