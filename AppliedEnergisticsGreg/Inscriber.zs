@@ -28,4 +28,6 @@ print("START: Applied Engergistics: Inscriber");
             Inscriber.addRecipe(ae2printedsilicon * 16, gtsilconwaferneutronium, true, ae2printedsiliconpress);
     }
 
+    add_inscriber_recipes();
+
 print("END: Applied Engergistics: Inscriber");
