@@ -19,6 +19,12 @@ print("START: Applied Engergistics: Recipes");
                         [<ore:craftingToolFile>, <ore:stickWood>, null]
                     ]);
                 //hoe
+                    recipes.remove(<appliedenergistics2:certus_quartz_hoe>);
+                    recipes.addShaped(<appliedenergistics2:certus_quartz_hoe>,[
+                        [<ore:crystalCertusQuartz>, <ore:crystalCertusQuartz>, <ore:craftingToolHardHammer>],
+                        [<ore:craftingToolFile>, <ore:stickWood>, null],
+                        [null, <ore:stickWood>, null]
+                    ]);
                 //shovel
                 //pickaxe
                 //sword
