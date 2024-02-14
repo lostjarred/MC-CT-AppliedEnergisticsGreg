@@ -26,6 +26,12 @@ print("START: Applied Engergistics: Recipes");
                         [null, <ore:stickWood>, null]
                     ]);
                 //shovel
+                    recipes.remove(<appliedenergistics2:certus_quartz_spade>);
+                    recipes.addShaped(<appliedenergistics2:certus_quartz_spade>,[
+                        [<ore:craftingToolFile>, <ore:crystalCertusQuartz>, <ore:craftingToolHardHammer>],
+                        [null, <ore:stickWood>, null],
+                        [null, <ore:stickWood>, null]
+                    ]);
                 //pickaxe
                 //sword
             //nether quartz
