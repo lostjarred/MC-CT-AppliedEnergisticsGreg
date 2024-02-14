@@ -76,6 +76,12 @@ print("START: Applied Engergistics: Recipes");
                         [null, <ore:stickWood>, null]
                     ]);
                 //sword
+                    recipes.remove(<appliedenergistics2:nether_quartz_sword>);
+                    recipes.addShaped(<appliedenergistics2:nether_quartz_sword>,[
+                        [null, <ore:gemNetherQuartz>, null],
+                        [<ore:craftingToolFile>, <ore:gemNetherQuartz>, <ore:craftingToolHardHammer>],
+                        [null, <ore:stickWood>, null]
+                    ]);
     }
     
     replace_tool_recipes();
