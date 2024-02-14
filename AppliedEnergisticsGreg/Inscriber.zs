@@ -24,6 +24,8 @@ print("START: Applied Engergistics: Inscriber");
             val gtsilconwafernaquahdar = <gregtech:meta_item_1:373>;
             Inscriber.addRecipe(ae2printedsilicon * 8, gtsilconwafernaquahdar, true, ae2printedsiliconpress);
         //neutronium doped wafer
+            val gtsilconwaferneutronium = <gregtech:meta_item_1:374>;
+            Inscriber.addRecipe(ae2printedsilicon * 16, gtsilconwaferneutronium, true, ae2printedsiliconpress);
     }
 
 print("END: Applied Engergistics: Inscriber");
