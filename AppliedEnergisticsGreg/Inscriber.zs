@@ -14,8 +14,14 @@ print("START: Applied Engergistics: Inscriber");
         */
         val ae2printedsilicon = <appliedenergistics2:material:20>;
         val ae2printedsiliconpress = <appliedenergistics2:material:19>;
-        val gtsiliconwafer = <gregtech:meta_item_1:371>;
-        Inscriber.addRecipe(ae2printedsilicon, gtsiliconwafer, true, ae2printedsiliconpress);
+        //silcon wafer
+            val gtsiliconwafer = <gregtech:meta_item_1:371>;
+            Inscriber.addRecipe(ae2printedsilicon, gtsiliconwafer, true, ae2printedsiliconpress);
+        //phosphorus doped wafer
+            val gtsiliconwaferphorus = <gregtech:meta_item_1:372>;
+            Inscriber.addRecipe(ae2printedsilicon * 4, gtsiliconwaferphorus, true, ae2printedsiliconpress);
+        //naquadah doped wafer
+        //neutronium doped wafer
     }
 
 print("END: Applied Engergistics: Inscriber");
